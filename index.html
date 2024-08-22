@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/logo.png" alt="Prompt Site Logo">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" id="aboutIcon">
+                        <img src="assets/info-icon.png" alt="About">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=61553565805276" target="_blank" id="contactIcon">
+                        <img src="assets/contact-icon.png" alt="Contact">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>About Prompt Site</h2>
+            <p>Prompt Site is a dedicated platform that provides hundreds of amazing AI art prompts. Explore, create, and unleash your creativity with the power of AI.</p>
+        </div>
+    </section>
+
+    <main>
+        <h1>AI Art Prompts</h1>
+        <div id="prompts-container">
+            <div class="prompt">A futuristic city at dusk with neon lights and flying cars</div>
+            <div class="prompt">A surreal landscape with floating islands and waterfalls</div>
+            <div class="prompt">An ancient forest with towering trees and glowing mushrooms</div>
+            <div class="prompt">A portrait of a robot with a human-like expression</div>
+            <div class="prompt">A fantasy scene with dragons flying over a castle</div>
+            <!-- Add more prompts as needed -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
